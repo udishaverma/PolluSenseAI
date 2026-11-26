@@ -1,0 +1,634 @@
+Folder PATH listing for volume Windows-SSD
+Volume serial number is EC8C-E3D5
+C:.
+|   .env
+|   .env.example
+|   .gitignore
+|   README.md
+|   requirements.txt
+|   stations.txt
+|   structure.txt
+|   
++---.vscode
+|       settings.json
+|       
++---backend
+|   |   aqi.py
+|   |   config.py
+|   |   data.py
+|   |   forecasting.py
+|   |   live_response.json
+|   |   model.py
+|   |   response.py
+|   |   xai.py
+|   |   __init__.py
+|   |   
+|   \---__pycache__
+|           aqi.cpython-313.pyc
+|           config.cpython-313.pyc
+|           forecasting.cpython-313.pyc
+|           model.cpython-313.pyc
+|           response.cpython-313.pyc
+|           xai.cpython-313.pyc
+|           __init__.cpython-313.pyc
+|           
++---cache
+|   \---baseline_fulltrain
+|           cache_manifest.json
+|           X_test_full.npy
+|           X_test_mlp.npy
+|           X_train_full.npy
+|           X_train_target_co.npy
+|           X_train_target_no2.npy
+|           X_train_target_o3.npy
+|           X_train_target_pm10.npy
+|           X_train_target_pm25.npy
+|           X_train_target_so2.npy
+|           y_train_target_co.npy
+|           y_train_target_no2.npy
+|           y_train_target_o3.npy
+|           y_train_target_pm10.npy
+|           y_train_target_pm25.npy
+|           y_train_target_so2.npy
+|           
++---data
+|   +---intermediate
+|   |       cpcb_master_2021_2025.csv
+|   |       era5_merged_2021_2025.nc
+|   |       
+|   +---processed
+|   |       cpcb_era5_2021_2025.csv
+|   |       test.csv
+|   |       train.csv
+|   |       val.csv
+|   |       
+|   \---raw
+|       +---cpcb
+|       |   +---ST01
+|       |   |       file_01.csv
+|       |   |       file_02.csv
+|       |   |       file_03.csv
+|       |   |       file_04.csv
+|       |   |       file_05.csv
+|       |   |       
+|       |   +---ST02
+|       |   |       file_01.csv
+|       |   |       file_02.csv
+|       |   |       file_03.csv
+|       |   |       file_04.csv
+|       |   |       file_05.csv
+|       |   |       
+|       |   +---ST03
+|       |   |       file_01.csv
+|       |   |       file_02.csv
+|       |   |       file_03.csv
+|       |   |       file_04.csv
+|       |   |       file_05.csv
+|       |   |       
+|       |   +---ST04
+|       |   |       file_01.csv
+|       |   |       file_02.csv
+|       |   |       file_03.csv
+|       |   |       file_04.csv
+|       |   |       file_05.csv
+|       |   |       
+|       |   +---ST05
+|       |   |       file_01.csv
+|       |   |       file_02.csv
+|       |   |       file_03.csv
+|       |   |       file_04.csv
+|       |   |       file_05.csv
+|       |   |       
+|       |   +---ST06
+|       |   |       file_01.csv
+|       |   |       file_02.csv
+|       |   |       file_03.csv
+|       |   |       file_04.csv
+|       |   |       file_05.csv
+|       |   |       
+|       |   +---ST07
+|       |   |       file_01.csv
+|       |   |       file_02.csv
+|       |   |       file_03.csv
+|       |   |       file_04.csv
+|       |   |       file_05.csv
+|       |   |       
+|       |   +---ST08
+|       |   |       file_01.csv
+|       |   |       file_02.csv
+|       |   |       file_03.csv
+|       |   |       file_04.csv
+|       |   |       file_05.csv
+|       |   |       
+|       |   +---ST09
+|       |   |       file_01.csv
+|       |   |       file_02.csv
+|       |   |       file_03.csv
+|       |   |       file_04.csv
+|       |   |       file_05.csv
+|       |   |       
+|       |   +---ST10
+|       |   |       file_01.csv
+|       |   |       file_02.csv
+|       |   |       file_03.csv
+|       |   |       file_04.csv
+|       |   |       file_05.csv
+|       |   |       
+|       |   +---ST11
+|       |   |       file_01.csv
+|       |   |       file_02.csv
+|       |   |       file_03.csv
+|       |   |       file_04.csv
+|       |   |       file_05.csv
+|       |   |       
+|       |   +---ST12
+|       |   |       file_01.csv
+|       |   |       file_02.csv
+|       |   |       file_03.csv
+|       |   |       file_04.csv
+|       |   |       file_05.csv
+|       |   |       
+|       |   +---ST13
+|       |   |       file_01.csv
+|       |   |       file_02.csv
+|       |   |       file_03.csv
+|       |   |       file_04.csv
+|       |   |       file_05.csv
+|       |   |       
+|       |   +---ST14
+|       |   |       file_01.csv
+|       |   |       file_02.csv
+|       |   |       file_03.csv
+|       |   |       file_04.csv
+|       |   |       file_05.csv
+|       |   |       
+|       |   +---ST15
+|       |   |       file_01.csv
+|       |   |       file_02.csv
+|       |   |       file_03.csv
+|       |   |       file_04.csv
+|       |   |       file_05.csv
+|       |   |       
+|       |   +---ST16
+|       |   |       file_01.csv
+|       |   |       file_02.csv
+|       |   |       file_03.csv
+|       |   |       file_04.csv
+|       |   |       file_05.csv
+|       |   |       
+|       |   +---ST17
+|       |   |       file_01.csv
+|       |   |       file_02.csv
+|       |   |       file_03.csv
+|       |   |       file_04.csv
+|       |   |       file_05.csv
+|       |   |       
+|       |   +---ST18
+|       |   |       file_01.csv
+|       |   |       file_02.csv
+|       |   |       file_03.csv
+|       |   |       file_04.csv
+|       |   |       file_05.csv
+|       |   |       
+|       |   +---ST19
+|       |   |       file_01.csv
+|       |   |       file_02.csv
+|       |   |       file_03.csv
+|       |   |       file_04.csv
+|       |   |       file_05.csv
+|       |   |       
+|       |   +---ST20
+|       |   |       file_01.csv
+|       |   |       file_02.csv
+|       |   |       file_03.csv
+|       |   |       file_04.csv
+|       |   |       file_05.csv
+|       |   |       
+|       |   +---ST21
+|       |   |       file_01.csv
+|       |   |       file_02.csv
+|       |   |       file_03.csv
+|       |   |       file_04.csv
+|       |   |       file_05.csv
+|       |   |       
+|       |   +---ST22
+|       |   |       file_01.csv
+|       |   |       file_02.csv
+|       |   |       file_03.csv
+|       |   |       file_04.csv
+|       |   |       file_05.csv
+|       |   |       
+|       |   +---ST23
+|       |   |       file_01.csv
+|       |   |       file_02.csv
+|       |   |       file_03.csv
+|       |   |       file_04.csv
+|       |   |       file_05.csv
+|       |   |       
+|       |   +---ST24
+|       |   |       file_01.csv
+|       |   |       file_02.csv
+|       |   |       file_03.csv
+|       |   |       file_04.csv
+|       |   |       file_05.csv
+|       |   |       
+|       |   +---ST25
+|       |   |       file_01.csv
+|       |   |       file_02.csv
+|       |   |       file_03.csv
+|       |   |       file_04.csv
+|       |   |       file_05.csv
+|       |   |       
+|       |   +---ST26
+|       |   |       file_01.csv
+|       |   |       file_02.csv
+|       |   |       file_03.csv
+|       |   |       file_04.csv
+|       |   |       file_05.csv
+|       |   |       
+|       |   +---ST27
+|       |   |       file_01.csv
+|       |   |       file_02.csv
+|       |   |       file_03.csv
+|       |   |       file_04.csv
+|       |   |       file_05.csv
+|       |   |       
+|       |   +---ST28
+|       |   |       file_01.csv
+|       |   |       file_02.csv
+|       |   |       file_03.csv
+|       |   |       file_04.csv
+|       |   |       file_05.csv
+|       |   |       
+|       |   +---ST29
+|       |   |       file_01.csv
+|       |   |       file_02.csv
+|       |   |       file_03.csv
+|       |   |       file_04.csv
+|       |   |       file_05.csv
+|       |   |       
+|       |   +---ST30
+|       |   |       file_01.csv
+|       |   |       file_02.csv
+|       |   |       file_03.csv
+|       |   |       file_04.csv
+|       |   |       file_05.csv
+|       |   |       
+|       |   +---ST31
+|       |   |       file_01.csv
+|       |   |       file_02.csv
+|       |   |       file_03.csv
+|       |   |       file_04.csv
+|       |   |       file_05.csv
+|       |   |       
+|       |   +---ST32
+|       |   |       file_01.csv
+|       |   |       file_02.csv
+|       |   |       file_03.csv
+|       |   |       file_04.csv
+|       |   |       file_05.csv
+|       |   |       
+|       |   +---ST33
+|       |   |       file_01.csv
+|       |   |       file_02.csv
+|       |   |       file_03.csv
+|       |   |       file_04.csv
+|       |   |       file_05.csv
+|       |   |       
+|       |   +---ST34
+|       |   |       file_01.csv
+|       |   |       file_02.csv
+|       |   |       file_03.csv
+|       |   |       file_04.csv
+|       |   |       file_05.csv
+|       |   |       
+|       |   +---ST35
+|       |   |       file_01.csv
+|       |   |       file_02.csv
+|       |   |       file_03.csv
+|       |   |       file_04.csv
+|       |   |       file_05.csv
+|       |   |       
+|       |   +---ST36
+|       |   |       file_01.csv
+|       |   |       file_02.csv
+|       |   |       file_03.csv
+|       |   |       file_04.csv
+|       |   |       file_05.csv
+|       |   |       
+|       |   \---ST37
+|       |           file_01.csv
+|       |           file_02.csv
+|       |           file_03.csv
+|       |           file_04.csv
+|       |           file_05.csv
+|       |           
+|       \---era5
+|           +---2021
+|           |       era5_accum_2021.nc
+|           |       era5_blh_2021.nc
+|           |       era5_instant_2021.nc
+|           |       
+|           +---2022
+|           |       era5_accum_2022.nc
+|           |       era5_blh_2022.nc
+|           |       era5_instant_2022.nc
+|           |       
+|           +---2023
+|           |       era5_accum_2023.nc
+|           |       era5_blh_2023.nc
+|           |       era5_instant_2023.nc
+|           |       
+|           +---2024
+|           |       era5_accum_2024.nc
+|           |       era5_blh_2024.nc
+|           |       era5_instant_2024.nc
+|           |       
+|           \---2025
+|                   era5_accum_2025.nc
+|                   era5_blh_2025.nc
+|                   era5_instant_2025.nc
+|                   
++---figures
+|   +---exploratory
+|   |       37StationsPlotted.png
+|   |       baseline_mae_comparison.png
+|   |       fig11_error_heatmap.png
+|   |       fig12_graph_structure.png
+|   |       fig13_labeled_station_graph.png
+|   |       fig14a_model_mean_pollutant_r2.png
+|   |       fig14b_model_aqi_macro_f1.png
+|   |       fig14_model_r2_aqi_f1_benchmark.png
+|   |       fig15_spatial_graph_on_map.png
+|   |       fig16_labeled_spatial_graph_on_map.png
+|   |       fig17_72h_mean_aqi_forecast.png
+|   |       fig1_station_map_and_graph.png
+|   |       fig1_unitless_model_summary.png
+|   |       fig2_r2_heatmap.png
+|   |       fig3_mae_heatmap.png
+|   |       fig4_pollutant_r2.png
+|   |       fig5_pollutant_rmse.png
+|   |       fig6_gat_improvement.png
+|   |       fig7_aqi_classification.png
+|   |       fig8_gat_aqi_confusion_matrix.png
+|   |       fig9a_r2_line_comparison.png
+|   |       pollutant_wise_r2_comparison.png
+|   |       
+|   \---paper
+|           72_hour_forecasted_aqi.png
+|           aqi_classification_confusion_matrix.png
+|           baseline_mae_comparison.png
+|           gatlstm_improvement_over_best_baseline.png
+|           gat_spatial_attention.png
+|           labelled_spatial_graph_on_map.png
+|           mae_heatmap.png
+|           merged-notebooks(JupyTools.com).ipynb
+|           model_architecture.png
+|           pollutant_wise_r2_comparison.png
+|           project_workflow.png
+|           
++---frontend
+|   |   app.py
+|   |   components.py
+|   |   dashboard.py
+|   |   map_view.py
+|   |   rankings.py
+|   |   styles.py
+|   |   
+|   \---__pycache__
+|           components.cpython-313.pyc
+|           dashboard.cpython-313.pyc
+|           map_view.cpython-313.pyc
+|           rankings.cpython-313.pyc
+|           styles.cpython-313.pyc
+|           
++---graph
+|       edge_index_final.csv
+|       graph_edge_index.npy
+|       station_metadata_final.csv
+|       
++---metrics
+|   |   baseline_per_pollutant_results.csv
+|   |   baseline_results_7_metrics.csv
+|   |   gat_lstm_final_7_metrics.csv
+|   |   gat_lstm_final_per_pollutant.csv
+|   |   gat_lstm_graph_ablation_aqi_comparison.csv
+|   |   gat_lstm_graph_ablation_comparison.csv
+|   |   gat_lstm_graph_ablation_exact_comparison.csv
+|   |   gat_lstm_graph_ablation_per_class.csv
+|   |   gat_lstm_graph_ablation_test_metrics.csv
+|   |   gat_lstm_graph_ablation_training.csv
+|   |   gat_lstm_temporal_ablation_test_metrics.csv
+|   |   gat_lstm_temporal_ablation_training.csv
+|   |   gat_lstm_test_aqi_windows.csv
+|   |   gat_lstm_three_model_aqi_common_windows.csv
+|   |   gat_lstm_three_model_aqi_comparison.csv
+|   |   gat_lstm_three_model_regression_long.csv
+|   |   gat_lstm_three_model_regression_wide.csv
+|   |   gat_lstm_validation_aqi_windows.csv
+|   |   mlp_test_metrics.csv
+|   |   random_forest_test_metrics.csv
+|   |   ridge_test_metrics.csv
+|   |   xgboost_test_metrics.csv
+|   |   
+|   +---baseline_fulltrain
+|   |       baseline_per_pollutant_fulltrain.csv
+|   |       baseline_vs_gat_lstm_common_aqi.csv
+|   |       baseline_vs_gat_lstm_common_regression.csv
+|   |       common_aqi_windows_all_models.csv
+|   |       confusion_matrix_gat_lstm.csv
+|   |       confusion_matrix_mlp.csv
+|   |       confusion_matrix_random_forest.csv
+|   |       confusion_matrix_ridge.csv
+|   |       confusion_matrix_xgboost.csv
+|   |       mlp_test_metrics.csv
+|   |       random_forest_test_metrics.csv
+|   |       ridge_test_metrics.csv
+|   |       xgboost_test_metrics.csv
+|   |       
+|   +---baseline_fulltrain_predictions
+|   |   |   mlp_test_predictions.csv
+|   |   |   random_forest_test_predictions.csv
+|   |   |   ridge_test_predictions.csv
+|   |   |   xgboost_test_predictions.csv
+|   |   |   
+|   |   +---mlp
+|   |   |       co_test_predictions.csv
+|   |   |       no2_test_predictions.csv
+|   |   |       o3_test_predictions.csv
+|   |   |       pm10_test_predictions.csv
+|   |   |       pm25_test_predictions.csv
+|   |   |       so2_test_predictions.csv
+|   |   |       
+|   |   +---random_forest
+|   |   |       co_test_predictions.csv
+|   |   |       no2_test_predictions.csv
+|   |   |       o3_test_predictions.csv
+|   |   |       pm10_test_predictions.csv
+|   |   |       pm25_test_predictions.csv
+|   |   |       so2_test_predictions.csv
+|   |   |       
+|   |   +---ridge
+|   |   |       co_test_predictions.csv
+|   |   |       no2_test_predictions.csv
+|   |   |       o3_test_predictions.csv
+|   |   |       pm10_test_predictions.csv
+|   |   |       pm25_test_predictions.csv
+|   |   |       so2_test_predictions.csv
+|   |   |       
+|   |   \---xgboost
+|   |           co_test_predictions.csv
+|   |           no2_test_predictions.csv
+|   |           o3_test_predictions.csv
+|   |           pm10_test_predictions.csv
+|   |           pm25_test_predictions.csv
+|   |           so2_test_predictions.csv
+|   |           
+|   \---baseline_predictions
+|       |   mlp_test_predictions.csv
+|       |   random_forest_test_predictions.csv
+|       |   ridge_test_predictions.csv
+|       |   xgboost_test_predictions.csv
+|       |   
+|       +---mlp
+|       |       co_test_predictions.csv
+|       |       no2_test_predictions.csv
+|       |       o3_test_predictions.csv
+|       |       pm10_test_predictions.csv
+|       |       pm25_test_predictions.csv
+|       |       so2_test_predictions.csv
+|       |       
+|       +---random_forest
+|       |       co_test_predictions.csv
+|       |       no2_test_predictions.csv
+|       |       o3_test_predictions.csv
+|       |       pm10_test_predictions.csv
+|       |       pm25_test_predictions.csv
+|       |       so2_test_predictions.csv
+|       |       
+|       +---ridge
+|       |       co_test_predictions.csv
+|       |       no2_test_predictions.csv
+|       |       o3_test_predictions.csv
+|       |       pm10_test_predictions.csv
+|       |       pm25_test_predictions.csv
+|       |       so2_test_predictions.csv
+|       |       
+|       \---xgboost
+|               co_test_predictions.csv
+|               no2_test_predictions.csv
+|               o3_test_predictions.csv
+|               pm10_test_predictions.csv
+|               pm25_test_predictions.csv
+|               so2_test_predictions.csv
+|               
++---models
+|   |   best_improved_gat_lstm.pt
+|   |   feature_scaler.pkl
+|   |   gat_lstm_config.pkl
+|   |   gat_lstm_graph_ablation_test_mask.npy
+|   |   gat_lstm_graph_ablation_test_predictions.npy
+|   |   gat_lstm_graph_ablation_test_targets.npy
+|   |   gat_lstm_no_cross_station.pt
+|   |   gat_lstm_temporal_ablation_latest_step.pt
+|   |   gat_lstm_temporal_ablation_test_mask.npy
+|   |   gat_lstm_temporal_ablation_test_predictions.npy
+|   |   gat_lstm_temporal_ablation_test_targets.npy
+|   |   gat_lstm_test_mask.npy
+|   |   gat_lstm_test_predictions.npy
+|   |   gat_lstm_test_targets.npy
+|   |   gat_lstm_test_times.npy
+|   |   gat_lstm_three_model_aqi_common_mask.npy
+|   |   
+|   +---baselines
+|   |   |   baseline_model_manifest.json
+|   |   |   ridge_bundle.joblib
+|   |   |   
+|   |   +---mlp
+|   |   |       co.joblib
+|   |   |       no2.joblib
+|   |   |       o3.joblib
+|   |   |       pm10.joblib
+|   |   |       pm25.joblib
+|   |   |       so2.joblib
+|   |   |       
+|   |   +---random_forest
+|   |   |       co.joblib
+|   |   |       no2.joblib
+|   |   |       o3.joblib
+|   |   |       pm10.joblib
+|   |   |       pm25.joblib
+|   |   |       so2.joblib
+|   |   |       
+|   |   +---ridge
+|   |   |       co.joblib
+|   |   |       no2.joblib
+|   |   |       o3.joblib
+|   |   |       pm10.joblib
+|   |   |       pm25.joblib
+|   |   |       so2.joblib
+|   |   |       
+|   |   \---xgboost
+|   |           co.joblib
+|   |           no2.joblib
+|   |           o3.joblib
+|   |           pm10.joblib
+|   |           pm25.joblib
+|   |           so2.joblib
+|   |           
+|   \---baselines_fulltrain
+|       +---mlp
+|       |       co.joblib
+|       |       no2.joblib
+|       |       o3.joblib
+|       |       pm10.joblib
+|       |       pm25.joblib
+|       |       so2.joblib
+|       |       
+|       +---random_forest
+|       |       co.joblib
+|       |       no2.joblib
+|       |       o3.joblib
+|       |       pm10.joblib
+|       |       pm25.joblib
+|       |       so2.joblib
+|       |       
+|       +---ridge
+|       |       co.joblib
+|       |       no2.joblib
+|       |       o3.joblib
+|       |       pm10.joblib
+|       |       pm25.joblib
+|       |       so2.joblib
+|       |       
+|       \---xgboost
+|               co.joblib
+|               no2.joblib
+|               o3.joblib
+|               pm10.joblib
+|               pm25.joblib
+|               so2.joblib
+|               
++---notebooks
+|       01-cpcb-data-merge.ipynb
+|       02-era5-merge.ipynb
+|       03-cpcb-era5-merge.ipynb
+|       04-ml-preprocessing-split.ipynb
+|       05-graph-construction.ipynb
+|       06-baseline-models.ipynb
+|       07-gat-lstm.ipynb
+|       08-xai.ipynb
+|       09-visualization.ipynb
+|       10-live-forecasting.ipynb
+|       11-spatial-temporal-ablation-study.ipynb
+|       
+\---xai
+    |   fig_xai_shap.png
+    |   fig_xai_spatial_attention.png
+    |   frontend_response_schema.json
+    |   pollusense_xai.py
+    |   
+    \---__pycache__
+            pollusense_xai.cpython-311.pyc
+            pollusense_xai.cpython-313.pyc
+            

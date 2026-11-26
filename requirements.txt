@@ -1,0 +1,26 @@
+# PolluSenseAI dashboard runtime dependencies
+# CPU-only PyTorch wheels for Vercel's Linux container runtime.
+
+--extra-index-url https://download.pytorch.org/whl/cpu
+
+numpy==2.2.6
+pandas==2.2.3
+scipy>=1.15,<2.0
+scikit-learn>=1.5,<2.0
+joblib>=1.4,<2.0
+requests>=2.32,<3.0
+python-dotenv>=1.1,<2.0
+
+# Model runtime
+torch==2.14.1+cpu
+torch-geometric==2.8.1
+
+# Explainability
+shap==0.53.0
+matplotlib>=3.9,<4.0
+
+# Streamlit UI
+streamlit==1.67.0
+plotly>=6.0,<7.0
+folium>=0.20,<1.0
+streamlit-folium>=0.25,<1.0

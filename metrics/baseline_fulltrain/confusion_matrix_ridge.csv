@@ -1,0 +1,7 @@
+,Predicted_Good,Predicted_Satisfactory,Predicted_Moderately polluted,Predicted_Poor,Predicted_Very Poor,Predicted_Severe
+Actual_Good,1657,304,0,0,0,0
+Actual_Satisfactory,353,16400,863,0,0,0
+Actual_Moderately polluted,0,999,25870,440,0,0
+Actual_Poor,0,0,587,9082,722,0
+Actual_Very Poor,0,0,1,401,17801,350
+Actual_Severe,0,0,0,0,472,7712

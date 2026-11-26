@@ -1,0 +1,61 @@
+# ============================================================
+# Secrets and environment files
+# ============================================================
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# ============================================================
+# Python bytecode and caches
+# ============================================================
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# ============================================================
+# Virtual environments
+# ============================================================
+.venv/
+venv/
+env/
+ENV/
+
+# ============================================================
+# Local datasets and processing caches
+# ============================================================
+data/
+cache/
+
+# ============================================================
+# Keep only the three model artifacts needed by the dashboard.
+# ============================================================
+models/*
+!models/best_improved_gat_lstm.pt
+!models/feature_scaler.pkl
+!models/gat_lstm_config.pkl
+
+# Generated live API response
+backend/live_response.json
+
+# ============================================================
+# Local editor and operating-system files
+# ============================================================
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# ============================================================
+# Logs, temporary files and archives
+# ============================================================
+*.log
+*.tmp
+*.bak
+*.zip

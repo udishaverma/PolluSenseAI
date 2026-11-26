@@ -1,0 +1,12 @@
+{
+  "station": "ST01",
+  "pollutant": "pm25",
+  "prediction": 0.0,
+  "unit": "µg/m³",
+  "shap_value_unit": "same as predicted concentration",
+  "spatial_attention": [],
+  "shap": [],
+  "top_positive_features": [],
+  "top_negative_features": [],
+  "natural_language": ""
+}

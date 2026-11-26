@@ -1,0 +1,39 @@
+| S. No. | Station ID | Station Name                           |
+| ------ | ---------- | -------------------------------------- |
+| 1      | ST01       | Alipur                                 |
+| 2      | ST02       | Anand Vihar Delhi                      |
+| 3      | ST03       | Anand Vihar Hapur                      |
+| 4      | ST04       | Arya Nagar Bahadurgarh                 |
+| 5      | ST05       | Ashok Vihar                            |
+| 6      | ST06       | Aya Nagar                              |
+| 7      | ST07       | Bawana                                 |
+| 8      | ST08       | Chandni Chowk                          |
+| 9      | ST09       | IGI Airport T3                         |
+| 10     | ST10       | ITO                                    |
+| 11     | ST11       | Jahangirpuri                           |
+| 12     | ST12       | Jai Bhim Nagar Meerut                  |
+| 13     | ST13       | Knowledge Park III Greater Noida       |
+| 14     | ST14       | Lodhi Road IMD                         |
+| 15     | ST15       | Loni Ghaziabad                         |
+| 16     | ST16       | Mandir Marg                            |
+| 17     | ST17       | Municipal Corporation Office Dharuhera |
+| 18     | ST18       | Mundka                                 |
+| 19     | ST19       | Najafgarh                              |
+| 20     | ST20       | Narela                                 |
+| 21     | ST21       | New Industrial Township Faridabad      |
+| 22     | ST22       | NSUT Dwarka                            |
+| 23     | ST23       | Okhla Phase 2                          |
+| 24     | ST24       | Punjabi Bagh                           |
+| 25     | ST25       | R K Puram                              |
+| 26     | ST26       | Rohini                                 |
+| 27     | ST27       | Sanjay Nagar Ghaziabad                 |
+| 28     | ST28       | Sardar Patel Inter College Baghpat     |
+| 29     | ST29       | Sector 2 IMT Manesar                   |
+| 30     | ST30       | Sector 11 Faridabad                    |
+| 31     | ST31       | Sector 116 Noida                       |
+| 32     | ST32       | Sector 51 Gurugram                     |
+| 33     | ST33       | Sector 62 Noida                        |
+| 34     | ST34       | Shyam Nagar Palwal                     |
+| 35     | ST35       | Sonia Vihar                            |
+| 36     | ST36       | Vasundhara Ghaziabad                   |
+| 37     | ST37       | Vikas Sadan Gurugram                   |

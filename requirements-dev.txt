@@ -1,0 +1,11 @@
+-r requirements.txt
+
+# Research notebooks and preprocessing
+networkx>=3.4,<4.0
+xarray>=2025.1.0
+netCDF4>=1.7
+h5netcdf>=1.4
+seaborn>=0.13,<1.0
+xgboost==3.2.0
+jupyterlab>=4.2,<5.0
+ipykernel>=6.29,<7.0
